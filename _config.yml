@@ -81,8 +81,8 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akapug"
-<!--    - icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/" -->
+#   - icon: "fab fa-fw fa-instagram"
+#     url: "https://instagram.com/" 
 
 defaults:
   # _posts
