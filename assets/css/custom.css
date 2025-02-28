@@ -235,9 +235,10 @@ strong {
 .content-section {
   display: flex;
   gap: 20px;
-  padding: 24px;
+  padding: 32px 24px;
   max-width: 920px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .content-section__aside {
@@ -275,7 +276,7 @@ strong {
 }
 
 .content-section__content {
-  width: calc(920px - 140px - 20px);
+  width: calc(100% - 140px - 20px);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -400,6 +401,9 @@ strong {
   opacity: 0.5;
 }
 
+/* Work Section */
+/* Section styling handled by content-section class */
+
 /* Location Block */
 .location-block__container {
   position: relative;
@@ -495,6 +499,9 @@ strong {
   opacity: 0.5;
 }
 
+/* Press Section */
+/* Section styling handled by content-section class */
+
 /* Artists */
 .content-section__subtext-container {
   display: flex;
@@ -547,6 +554,9 @@ strong {
   font-family: monospace;
 }
 
+/* Artists Section */
+/* Section styling handled by content-section class */
+
 /* Hobbies */
 .hobby-list__item {
   display: flex;
@@ -577,6 +587,44 @@ strong {
   opacity: 0.5;
 }
 
+/* Hobbies Section */
+/* Section styling handled by content-section class */
+
+/* Post List */
+.post-list__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.post-list__title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.post-list__dots {
+  flex: 1;
+  white-space: nowrap;
+  font-family: monospace;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+.post-list__date {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  opacity: 0.5;
+}
+
+.post-excerpt {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
 /* Footer */
 .footer {
   width: 100%;
@@ -601,10 +649,11 @@ strong {
     width: 100%;
     max-width: 90%;
     box-sizing: border-box;
+    padding: 24px;
   }
 
   .content-section__content {
-    width: 100%;
+    width: calc(100% - 140px - 20px);
     box-sizing: border-box;
   }
 }
@@ -617,6 +666,8 @@ strong {
   .content-section {
     flex-direction: column;
     gap: 16px;
+    padding: 20px 16px;
+    max-width: 95%; /* Slightly wider on mobile */
   }
 
   .content-section__aside {

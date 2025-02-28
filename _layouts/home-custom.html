@@ -156,7 +156,7 @@ In 2015, I moved back to the Bay Area, where I decided to take a break from lead
 </div>
 </div>
 </section>
-<section class="content-section" id="work">
+<section class="content-section work-section" id="work">
 <aside class="content-section__aside">
 <h3 class="content-section__title">Work</h3>
 <a
@@ -184,7 +184,7 @@ src="assets/images/simbi.png"
 alt="Simbi 501(C)(3) logo"
 class="work-list__logo"
 />
-<span class="work-list__company"><a href="https://simbi.com" target="_blank">Simbi 501(C)(3)</a></span>
+<span class="work-list__company"><a href="https://simbi.com" target="_blank">Simbi Community Development 501(c)(3)</a></span>
 </div>
 <span class="work-list__dots"></span>
 <span class="work-list__dates">President & Lead Volunteer, 2021 - current</span>
@@ -230,7 +230,7 @@ class="work-list__logo"
 </div>
 </section>
 
-<section class="content-section" id="press">
+<section class="content-section press-section" id="press">
 <aside class="content-section__aside">
 <h3 class="content-section__title">Press</h3>
 <a
@@ -284,10 +284,15 @@ target="_blank"
       <div class="post-list">
         {% for post in site.posts limit:3 %}
           <div class="post-item">
-            <h4 class="post-title">
-              <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-            </h4>
-            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <div class="post-list__item">
+              <div class="post-list__title">
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              </div>
+              <div class="post-list__dots">
+
+              </div>
+              <div class="post-list__date">{{ post.date | date: "%b %-d, %Y" }}</div>
+            </div>
             <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</div>
           </div>
         {% endfor %}
@@ -356,7 +361,7 @@ title="Pah Tempe Hot Springs, Hurricane UT" /></a>
 </section>
 
 
-<section class="content-section" id="music">
+<section class="content-section artists-section" id="music">
 <aside class="content-section__aside">
 <h3 class="content-section__title">Top Artists</h3>
 <div class="content-section__subtext-container">
@@ -443,7 +448,7 @@ class="artist-list__spotify-icon"
 </div>
 </section>
 
-<section class="content-section" id="hobbies">
+<section class="content-section hobbies-section" id="hobbies">
 <aside class="content-section__aside">
 <h3 class="content-section__title">Hobbies</h3>
 </aside>
