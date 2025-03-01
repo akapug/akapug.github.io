@@ -21,6 +21,7 @@ twitter_username: davidakapug
 github_username: akapug
 minimal_mistakes_skin: contrast
 search: true
+logo: "assets/images/pug.png"
 
 # Build settings
 markdown: kramdown
@@ -69,6 +70,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akapug"
+    - label: "Categories"
+     icon: "fab fa-fw fa-github"
+      url: "https://akapug.net/categories/"
+    - label: "Tags"
+     icon: "fab fa-fw fa-github"
+      url: "https://akapug.net/tags/"
 
 footer:
   links:
