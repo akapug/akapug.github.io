@@ -71,10 +71,10 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akapug"
     - label: "Categories"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-solid fa-list"
       url: "https://akapug.net/categories/"
     - label: "Tags"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-solid fa-tags"
       url: "https://akapug.net/tags/"
 
 footer:
@@ -88,12 +88,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akapug"
-    - label: "Categories"
-      icon: "fab fa-fw fa-github"
-      url: "https://akapug.net/categories/"
-    - label: "Tags"
-      icon: "fab fa-fw fa-github"
-      url: "https://akapug.net/tags/"
 
 defaults:
   # _posts
