@@ -61,7 +61,7 @@ author:
   avatar : "/assets/images/avatar.jpg"
   bio    : "I'm a social impact entrepreneur and startup consultant jack-of-all-trades."
   links:
-    - label: "Work Site (under construction)"
+    - label: "Work Site (🚧👷‍♂️)"
       icon: "fas fa-fw fa-link"
       url: "https://minusculeventures.com"
     - label: "I still call it Twitter"
@@ -71,15 +71,15 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akapug"
     - label: "Categories"
-     icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://akapug.net/categories/"
     - label: "Tags"
-     icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://akapug.net/tags/"
 
 footer:
   links:
-    - label: "Work Site (under construction)"
+    - label: "Work Site (🚧👷‍♂️)"
       icon: "fas fa-fw fa-link"
       url: "https://minusculeventures.com"
     - label: "I still call it Twitter"
@@ -88,8 +88,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akapug"
-#   - icon: "fab fa-fw fa-instagram"
-#     url: "https://instagram.com/" 
+    - label: "Categories"
+      icon: "fab fa-fw fa-github"
+      url: "https://akapug.net/categories/"
+    - label: "Tags"
+      icon: "fab fa-fw fa-github"
+      url: "https://akapug.net/tags/"
 
 defaults:
   # _posts
