@@ -29,3 +29,16 @@
 .page__footer-follow .social-icons a {
   color: inherit;
 }
+
+/* Ensure footer styling is consistent on homepage */
+.page__footer {
+  width: 100%;
+  clear: both;
+}
+
+/* Fix for Font Awesome icon display */
+.page__footer-follow .social-icons i {
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+}
