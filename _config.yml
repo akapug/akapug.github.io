@@ -22,6 +22,8 @@ github_username: akapug
 minimal_mistakes_skin: contrast
 search: true
 logo: "assets/images/pug.png"
+url: "https://akapug.net"
+baseurl: ""
 
 # Build settings
 markdown: kramdown

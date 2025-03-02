@@ -1,0 +1,31 @@
+/* Fix for social icons in footer */
+.social-icons .fa,
+.social-icons .fab,
+.social-icons .fas {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+}
+
+.social-icons .fab {
+  font-family: "Font Awesome 5 Brands" !important;
+  font-weight: 400;
+}
+
+/* Fix for hamburger menu visibility */
+.greedy-nav .visible-links {
+  display: flex !important;
+}
+
+.greedy-nav__toggle {
+  display: block !important;
+}
+
+/* Ensure consistent styling across pages */
+.page__footer .footer__content {
+  text-align: center;
+}
+
+/* Fix for icons in footer */
+.page__footer-follow .social-icons a {
+  color: inherit;
+}

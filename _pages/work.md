@@ -1,5 +1,5 @@
 ---
-permalink: /Work/
+permalink: /work/
 title: "My Work"
 ---
 -----------------

@@ -1,0 +1,47 @@
+## Fix Instructions for Homepage Issues
+
+### 1. Fix URL Configuration in _config.yml
+- Add these lines to your _config.yml:
+```yaml
+url: "https://akapug.net"
+baseurl: ""
+```
+
+### 2. Fix Hamburger Menu on Homepage
+- Add this script tag just before the closing </body> tag in home-custom.html:
+```html
+<script src="assets/js/main.min.js"></script>
+```
+
+### 3. Fix Font Awesome Icons in Footer
+- Add this link tag in the <head> section of home-custom.html (after custom.css):
+```html
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+```
+
+### 4. Fix CSS for Social Icons
+- Add these styles to custom.css:
+```css
+.social-icons .fa,
+.social-icons .fab,
+.social-icons .fas {
+  font-family: "Font Awesome 5 Free" !important;
+}
+
+.social-icons .fab {
+  font-family: "Font Awesome 5 Brands" !important;
+}
+```
+
+### 5. Fix Page Navigation
+- Ensure all internal links use relative URLs with site.baseurl:
+```html
+<a href="{{ site.baseurl }}/work">Work</a>
+<a href="{{ site.baseurl }}/interests">Interests</a>
+```
+
+Follow these instructions to fix all three issues:
+1. Pages not loading on GitHub Pages
+2. Missing hamburger menu on homepage
+3. Missing Font Awesome icons in footer
