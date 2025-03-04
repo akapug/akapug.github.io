@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The end of YC"
 date: 2025-03-03 15:39
 categories:
