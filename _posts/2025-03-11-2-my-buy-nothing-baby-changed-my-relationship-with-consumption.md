@@ -9,7 +9,9 @@ tags:
   - sidewalk-treasures
 ---
 
-> "> My Buy Nothing baby changed my relationship with consumption"
+> "If you’re part of a community — a neighborhood, workplace, school, or apartment building — that would benefit from this as well, here is a lightweight spreadsheet that anyone can copy and use to start their own lending library. No fancy software (yet), just a simple way to track what’s available and who’s borrowing what.
+>
+> [👉 Community Lending Library Template](https://docs.google.com/spreadsheets/d/1eUB1FafOC9tXvSWDQd9mneXl7w3XfbeQQd_POdRjPr0/edit?usp=sharing)"
 
 [(2) My Buy Nothing baby changed my relationship with consumption](https://jeanhsu.substack.com/p/my-buy-nothing-baby-changed-my-relationship)
 
